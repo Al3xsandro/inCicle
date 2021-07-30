@@ -121,7 +121,7 @@ export const Nav = styled.nav`
         justify-content: center;
         align-items: center;
 
-        height: 100%;
+        height: 100vw;
 
         .nav_profile {
             display: flex;

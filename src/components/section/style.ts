@@ -4,8 +4,6 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
 
-    margin: 1rem;
-
     .section_post {
         display: flex;
         flex-direction: column;
@@ -110,6 +108,37 @@ export const Main = styled.main`
     }
 
     @media(max-width: 768px){
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .section_post {
+            width: 23rem;
+            height: 21rem;
+
+            margin: 1.5rem;
+
+            .social_post_details {
+                .social_privacy {
+                    margin-top: 0rem;
+                }
+            }
+
+            .section_actions_details {
+                font-size: 0.8rem;
+
+                .action_commits {
+                    margin-left: 1rem;
+                }
+            }
+
+            .feed_social_action {
+                .button {
+                    margin: 1rem;
+                    padding: 0.4rem 0.4rem 0.2rem;
+                }
+            }
+        }
     }
 `;
