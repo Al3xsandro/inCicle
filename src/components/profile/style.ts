@@ -121,12 +121,15 @@ export const Nav = styled.nav`
         justify-content: center;
         align-items: center;
 
-        height: 100vw;
+
+        width: 100vh;
+        margin: 0;
 
         .nav_profile {
             display: flex;
 
             width: 100vh;
+            margin: 0;
         }
     }
 `;
