@@ -4,8 +4,7 @@ export const Nav = styled.nav`
     display: flex;
     flex-direction: column;
 
-    width: 20rem;
-    margin: 1rem;
+    margin: 0.4rem;
 
     .nav_profile {
         display: flex;

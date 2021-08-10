@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Aside = styled.aside`
     display: flex;
     flex-direction: column;
-    
-    margin: 1rem;
 
     .content_box {
         display: flex;
@@ -13,7 +11,7 @@ export const Aside = styled.aside`
         padding: 1rem;
         margin: 1rem;
 
-        width: 20rem;
+        width: 19rem;
         height: 5rem;
 
         background: var(--light);
@@ -47,7 +45,7 @@ export const Aside = styled.aside`
         padding: 1rem;
         margin: 1rem;
 
-        width: 20rem;
+        width: 19rem;
         height: 6rem;
 
         background: var(--light);

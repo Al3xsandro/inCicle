@@ -11,7 +11,7 @@ export const Main = styled.main`
         padding: 1.2rem;
         margin: 1.5rem;
 
-        width: 44rem;
+        width: 41rem;
         height: 16rem;
 
         background: var(--light);
